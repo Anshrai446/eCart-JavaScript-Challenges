@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>eCart - Product Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>eCart</h1>
+        <p>Product Explorer</p>
+    </header>
+
+    <main>
+
+        <!-- Products Section -->
+        <section>
+            <h2>Products</h2>
+
+            <div id="product-container">
+                <!-- Products will come here using JavaScript -->
+            </div>
+        </section>
+
+
+        <!-- Recently Viewed Section -->
+        <section>
+            <div class="recent-header">
+                <h2>Recently Viewed</h2>
+
+                <button id="clear-history">
+                    Clear History
+                </button>
+            </div>
+
+            <div id="recently-viewed">
+                <!-- Recently viewed products will come here -->
+            </div>
+
+            <p id="empty-history">
+                No recently viewed products.
+            </p>
+        </section>
+
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
